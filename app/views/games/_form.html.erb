@@ -11,27 +11,27 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :title %>
     <%= form.text_field :title %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :released %>
     <%= form.date_select :released %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :developer %>
     <%= form.text_field :developer %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :publisher_id %>
     <%= form.number_field :publisher_id %>
   </div>
 
-  <div class="actions">
+  <div class="actions form-group">
     <%= form.submit %>
   </div>
 <% end %>
